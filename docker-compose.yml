@@ -1,0 +1,12 @@
+# Background workers moved to Inngest (served by Next.js at /api/inngest).
+# This compose file is optional — only needed if you want a local Redis.
+#
+# Job processing no longer runs in Docker containers.
+# See BACKGROUND_JOB_ARCHITECTURE.md
+
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: unless-stopped

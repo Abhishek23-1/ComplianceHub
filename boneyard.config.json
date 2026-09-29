@@ -1,0 +1,24 @@
+{
+  "breakpoints": [375, 768, 1280],
+  "out": "./bones",
+  "wait": 1200,
+  "color": "#1a1a1a",
+  "darkColor": "#2a2a2a",
+  "animate": "shimmer",
+  "shimmerColor": "#252525",
+  "darkShimmerColor": "#333333",
+  "speed": "2s",
+  "shimmerAngle": 110,
+  "select": "viewport",
+  "resolveEnvVars": true,
+  "auth": {
+    "cookies": [
+      {
+        "name": "coi_session",
+        "value": "env[BONEYARD_SESSION_TOKEN]",
+        "domain": "localhost",
+        "path": "/"
+      }
+    ]
+  }
+}

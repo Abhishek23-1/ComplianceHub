@@ -1,0 +1,72 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+.agents/
+.agent.py
+
+# Cursor IDE
+.cursor/
+
+# Local email attachments (saved from AgentMail)
+attachments/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node.js / Next.js (future phases)
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs & runtime
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / editors
+.idea/
+*.swp
+*.swo
+*~
+
+# Local databases & cache
+*.sqlite
+*.sqlite3
+dump.rdb
+
+# Uploads & temp files
+uploads/
+tmp/
+temp/
+*.tmp
+
+testsprite_tests\tmp\config.json
